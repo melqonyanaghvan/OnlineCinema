@@ -6,7 +6,7 @@ public class Movie
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public int ReleaseYear { get; set; }
-    public int DurationInMinutes { get; set; }
+    public int DurationMinutes { get; set; }
     public decimal Rating { get; set; }
 
     public ICollection<Review> Reviews { get; set; } = new List<Review>();
